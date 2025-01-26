@@ -1,8 +1,8 @@
-body{
+body {
     font-family: 'Yugioh', serif;
     background-image: url(../imagens/fundo-site.jpg);
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -11,18 +11,18 @@ body{
 
 }
 
-.cabecalho{
+.cabecalho {
     display: flex;
-    justify-content: center;   
+    justify-content: center;
 }
 
-.cabecalho .titulo{
+.cabecalho .titulo {
     color: #f1ecff;
-    
- 
+
+
 }
 
-.cartao{
+.cartao {
     opacity: 0;
     display: flex;
     flex-direction: column;
@@ -32,13 +32,13 @@ body{
 
 }
 
-.cartao.selecionado{
+.cartao.selecionado {
     opacity: 1;
     z-index: 1;
 
 }
 
-.lista-personagens{
+.lista-personagens {
     width: 300px;
     height: 500px;
     border-radius: 10px;
@@ -46,23 +46,23 @@ body{
 
 }
 
-.slider{
+.slider {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 130px;
 }
 
-.cartao .nome{
+.cartao .nome {
     font-size: 13px;
     padding: 5px;
     text-transform: uppercase;
     background: radial-gradient(#f3e2c8, #e4cfa5, #c3a57a);
     border: 2px, solid #a67c52;
-   border-radius: 4px;
+    border-radius: 4px;
 }
 
-.cartao .estrela{
+.cartao .estrela {
     width: 20px;
     height: 20px;
     background-image: url(../imagens/nivel-carta.png);
@@ -73,7 +73,7 @@ body{
 
 }
 
-.cartao .nivel-carta{
+.cartao .nivel-carta {
     display: flex;
     justify-content: flex-end;
     margin-right: 10px;
@@ -81,13 +81,13 @@ body{
 }
 
 
-.cartao .imagem-carta{
+.cartao .imagem-carta {
     max-width: 260px;
     align-self: center;
 
 }
 
-.cartao .informacoes{
+.cartao .informacoes {
     background-color: chocolate;
     border-radius: 5px;
     max-width: 300px;
@@ -99,18 +99,18 @@ body{
     padding: 5px;
 }
 
-.cartao .informacoes-ataque{
+.cartao .informacoes-ataque {
     display: flex;
     justify-content: flex-end;
     gap: 5px;
     padding: 10px;
 }
 
-.carta .informacoes .informacoes-ataque span{
+.carta .informacoes .informacoes-ataque span {
     font-size: 13px;
 }
 
-.cartao .informacoes .descricao{
+.cartao .informacoes .descricao {
     border-bottom: 1px solid #000000;
     padding: 10px;
     max-height: 95px;
@@ -118,36 +118,36 @@ body{
     font-size: 13px;
 }
 
-.fundo-1{
+.fundo-1 {
     background: url(../imagens/fundo-1.jpg) no-repeat;
 
 }
 
-.fundo-2{
+.fundo-2 {
     background: url(../imagens/fundo-2.jpg) no-repeat;
 }
 
-.fundo-3{
+.fundo-3 {
     background: url(../imagens/fundo-3.jpg) no-repeat;
 }
 
-.fundo-4{
+.fundo-4 {
     background: url(../imagens/fundo-4.jpg) no-repeat;
 }
 
-.fundo-5{
+.fundo-5 {
     background: url(../imagens/fundo-5.jpg) no-repeat;
 }
 
-.fundo-6{
+.fundo-6 {
     background: url(../imagens/fundo-6.jpg) no-repeat;
 }
 
-.fundo-7{
+.fundo-7 {
     background: url(../imagens/fundo-7.jpg) no-repeat;
 }
 
-.btn-seta{
+.btn-seta {
     background-color: #ffffff;
     width: 70px;
     height: 70px;
@@ -161,15 +161,15 @@ body{
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
-.btn-seta.btn-voltar{
+.btn-seta.btn-voltar {
     transform: rotateY(180deg);
 }
 
-.btn-seta:hover{
+.btn-seta:hover {
     background-color: #8351fe;
 }
 
-body::-webkit-scrollbar-track{
+body::-webkit-scrollbar-track {
     background-color: #c08057;
 }
 
